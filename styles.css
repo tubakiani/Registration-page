@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url("image/background.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.card {
+  width: 450px;
+  height: 650px;
+  background: radial-gradient(
+      rgba(67, 94, 169, 0.4) 80%,
+      rgba(20, 20, 20, 0) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(50px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 50px;
+  transform: rotate(0.08deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.header p {
+  font-size: 25px;
+  margin-left: -300px;
+  color: rgb(255, 255, 255);
+  margin-top: 30px;
+}
+.inpus {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.inpus input {
+  width: 400px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 18px;
+  background-color: rgb(198, 215, 234);
+  border: none;
+  padding: 5px;
+}
+.button-signup {
+  margin-top: 20px;
+  width: 400px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  color: rgb(46, 44, 44);
+}
+div p {
+  margin-top: 20px;
+  padding: 0 40px;
+  text-align: center;
+  color:  #000;
+}
+.or {
+  margin: 10px;
+}
+.button-another {
+  display: flex;
+  flex-direction: column;
+}
+.apple {
+  margin-top: 20px;
+  width: 400px;
+  height: 40px;
+  border-radius: 15px;
+  background: none;
+  border: 1px solid rgb(0, 0, 0);
+  color:  #000;
+  display: flex;
+  align-items: center;
+}
+.apple-img{
+  width: 20px;
+  margin: 30px;
+}
+.apple p{
+  margin: 20px;
+}
+.google {
+  margin-top: 20px;
+  width: 400px;
+  height: 40px;
+  border-radius: 15px;
+  background: none;
+  border: 1px solid rgb(0, 0, 0);
+  color:  #000;
+  display: flex;
+  align-items: center;
+}
+.google-image{
+  width: 20px;
+  margin: 30px;
+}
+.google p{
+  margin: 20px;
+}
